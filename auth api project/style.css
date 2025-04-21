@@ -1,0 +1,27 @@
+/* базовые стили */
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 20px;
+}
+.header {
+  background: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+/* статус сети */
+.online {
+  color: green;
+}
+.offline {
+  color: red;
+}
+/* форма входа */
+#login-form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+#error {
+  color: red;
+  margin-top: 10px;
+}
